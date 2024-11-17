@@ -1,11 +1,15 @@
 
 ## **Nota para profesor:**
 
-Pudé llegar solo 2 completo, los tiempos de entrenamiento se alargaron mucho y no alcance a avanzar mas. Igualmente hago la entrega por que me interesa mucho saber sobre el proceso de todo lo que he hecho hasta el momento.
+Pudé llegar solo hasta el punto 2 completo, los tiempos de entrenamiento se alargaron mucho y no alcance a avanzar mas :( 
 
-Gaste mucho tiempo en Machine Learning y me gustaria tambien tener tu opinion de si lo que hice tiene un mejor workflow o si me complique mucho por que todavia me salen muchas dudas y errores que debo corregir bastnte y me toman tiempo cuando hago practicas sola.
+Igualmente hago la entrega por que me interesa mucho saber sobre el proceso de todo lo que he hecho hasta el momento.
 
-Garcias Profe!
+Gasté mucho tiempo en Machine Learning y me gustaria tambien tener tu opinion de si lo que hice tiene un mejor workflow o si me compliqué mucho por que todavia me salen muchas dudas, me salian muchos errores implenentando y debia corregir. Al llegar a imagenes los tiempos se triplicaron y no lo logré lamentablemente.
+
+
+Garcias Profe, ya me dirás como debo hacer la re entrega.
+
 
 Este es el link del drive con todo completo por que todo pesaba 11 gibs y no dejaba subir a Github.
 
