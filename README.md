@@ -1,6 +1,6 @@
 # **AIRBNB IMAGE FORECASTER**
 
-## This project aims to create a Deep Learning model from 0 and using neural dense networks combining tabular and image data to predict real estate prices🏫
+## This project aims to create a Deep Learning model from 0 and using neural dense networks and pre-trained models combining tabular and image data to predict real estate prices🏫
 
 Project and Arquitecture structure:
 
