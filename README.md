@@ -45,19 +45,30 @@ Calculated and stored mean and standard deviation per channel (R, G, B) from tra
 Synchronized preprocessed image datasets with tabular data, addressing record mismatches and saving updated datasets.
 Implemented deep and efficient data handling workflows, ensuring compatibility and reducing preprocessing overhead for multimodal deep learning tasks.
 
-2. 2_Modelado_tabulares
+1_PREPROCESS_fd_val_.ipynb
+Aligned validation dataset preprocessing with training and test sets, ensuring feature consistency across all splits.
+
+1_PREPROCESS_fd_test.ipynb
+Finalized preprocessing of test data, ensuring consistency with validation and training datasets for seamless model integration.
+
+
+2. 1_Modelado_tabulares
 Designed a tailored neural network with 64 and 32 neurons in hidden layers and Dropout regularization to predict price_log.
 Implemented a Learning Rate Finder to optimize training performance efficiently.
 Applied imputation, normalization, and feature engineering to prepare the dataset for modeling, ensuring data integrity.
 Built an end-to-end regression pipeline in TensorFlow and Keras, showcasing expertise in model architecture, training, and evaluation.
 
-3. 2_Modelado_imagenes_full
+![test_modelostabulares](https://github.com/user-attachments/assets/d03f9242-5880-49c9-b2da-6a13e0bcd54d)
+
+2. 2_Modelado_imagenes_full
 Adapted a pre-trained ResNet50 model to predict real estate prices from interior images.
 Added dense layers (512, 256 neurons), dropout for regularization, and a linear output layer for regression.
 Normalized and preprocessed images using ResNet50-specific techniques, ensuring reproducibility.
 Used Adam optimizer, MSE loss, and MAE metric for accurate and interpretable predictions.
 
-## 4. **3.Early_Fusion_imagenes-tabular (still working on)**⬅️
+![modeladoimgs_Metrics](https://github.com/user-attachments/assets/f64b8553-8d99-41f2-9e0c-ee0951226846)
+
+3. Early_Fusion_imagenes-tabular
 Trained and evaluated multiple pre-trained models, including ResNet50, EfficientNet, and MobileNet, showcasing expertise in leveraging various architectures.
 Combined image features with tabular data through a Concatenate Layer, enabling multi-modal learning.
 Extended pre-trained models with custom dense layers to adapt them for regression tasks, ensuring compatibility with fused features.
@@ -65,10 +76,12 @@ Standardized tabular data to match image feature scales, ensuring seamless integ
 Used EfficientNet to extract image features and integrated cluster-based outlier detection for price predictions, improving robustness against anomalous data.
 Achieved promising results with validation metrics indicating potential for further optimization, reflecting adaptability across models and data types.
 
-5. PREPROCESS_fd_val_.ipynb
-Aligned validation dataset preprocessing with training and test sets, ensuring feature consistency across all splits.
 
-6. PREPROCESS_fd_test.ipynb
-Finalized preprocessing of test data, ensuring consistency with validation and training datasets for seamless model integration.
-
+5. Late_Fusion_imgs_tab
+Developed and optimized late fusion models combining traditional ML (Ridge, SVM, Random Forest) and deep learning (ResNet50, CNN with attention) to predict real-estate prices, improving model performance.
+Integrated tabular and image data using late fusion techniques, leveraging models like Random Forest, XGBoost, and CNNs to enhance prediction accuracy.
+Fine-tuned hybrid models, employing hyperparameter optimization and feature selection to maximize performance, including a hybrid CNN + attention mechanism model.
+Implemented robust training strategies with early stopping and model checkpoints to prevent overfitting, ensuring reproducibility and improved model generalization.
+Evaluated model performance across multiple datasets (training, validation, test) with key metrics (MAE, RMSE, R²), delivering actionable insights into model effectiveness.
+![image](https://github.com/user-attachments/assets/9b0f7fd9-782b-43a8-8f2a-f88018c4a0fe)
 
